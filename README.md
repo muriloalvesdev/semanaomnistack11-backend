@@ -7,34 +7,30 @@ I currently work with Java and [Spring Framework](https://spring.io/) and I feel
 Thank you very much [Rocketseat](https://github.com/Rocketseat)!
 ______________________________________________________________________________________________________________________________
 
-## Tecnologie
+## Tecnologie :rocket:
 - [NodeJs](https://nodejs.org/en/).
 
 ______________________________________________________________________________________________________________________________
 
-## Clone this repository
+## How To Use :star:
 
 For you to be able to climb this backend it is necessary to perform the step by step below:
 
-##### Clone this repository
-##### $ git clone https://github.com/muriloalvesdev/semanaomnistack11-backend
+###### Clone this repository
+$ git clone https://github.com/muriloalvesdev/semanaomnistack11-backend
 
-##### Go into the repository
-##### $ cd SemanaOmnistack11/backend
+###### Go into the repository
+$ cd SemanaOmnistack11/backend
 
-______________________________________________________________________________________________________________________________
+###### Install dependencies with [yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#mac-stable) or [npm](https://www.npmjs.com/):
 
-## - Install dependencies with [yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#mac-stable) or [npm](https://www.npmjs.com/):
+$ yarn install || npm install
 
-##### $ yarn install || npm install
+###### Run Migrates
+$ yarn knex migrate:latest || npx knex migrate:latest
 
-##### Run Migrates
-##### $ yarn knex migrate:latest || npx knex migrate:latest
-
-______________________________________________________________________________________________________________________________
-
-## Run the API
-##### $ yarn dev || npm start
+###### Run the API
+$ yarn dev || npm start
 
 ______________________________________________________________________________________________________________________________
 
