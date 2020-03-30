@@ -9,7 +9,8 @@ module.exports = {
         const [count] = await connection('incidents')
             .count();
 
-        if(count != 0){
+        console.log(count);
+        if(JSON.stringify(count) !== '0'){
             const incidents = await connection('incidents')
             .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
             .limit(5)
