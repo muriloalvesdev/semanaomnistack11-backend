@@ -25,6 +25,9 @@ module.exports = {
     
             response.header('X-Total-Count', count['count(*)']);
             response.json(incidents);
+        }else{
+            response.header('X-Total-Count', count['count(*)']);
+            response.json([]);
         }
     },
 
