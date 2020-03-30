@@ -18,7 +18,7 @@ ________________________________________________________________________________
 For you to be able to climb this backend it is necessary to perform the step by step below:
 
 ###### Clone this repository
-$ git clone https://github.com/muriloalvesdev/semanaomnistack11-backend
+$ git clone https://github.com/muriloalvesdev/semanaomnistack11-backend.git
 
 ###### Go into the repository
 $ cd SemanaOmnistack11/backend
