@@ -1,3 +1,5 @@
+## First of all read this [Wiki](https://github.com/muriloalvesdev/semanaomnistack11-backend/wiki).
+
 ## Motivation
 
 This backend was created in nodejs and is hosted on [Heroku](https://heroku.com/), as described in the Readme.md of the [frontend](https://github.com/muriloalvesdev/semanaomnistack11-frontend) of this application, as I have not yet mastered node, react and also react-native I decided to get down to it and learn in a practical way!
