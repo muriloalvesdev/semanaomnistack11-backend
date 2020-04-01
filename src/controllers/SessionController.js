@@ -4,8 +4,7 @@ const jwt = require('jsonwebtoken');
 module.exports = {
 
     async create(request, response) {
-        const {id} = request.body;
-        const token = jwt.sign(id);
+        const token = jwt.sign({user: user.id}, request.body);
          
         const ong = await connection('ongs')
             .where('id', id)
