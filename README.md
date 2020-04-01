@@ -11,8 +11,19 @@ ________________________________________________________________________________
 
 ## Tecnologie :rocket:
 - [NodeJs](https://nodejs.org/en/).
-- [SQLite](https://www.sqlite.org/index.html).
-- [Expo](https://expo.io/)
+- [express](https://www.npmjs.com/package/express)
+- [cors](https://www.npmjs.com/package/cors)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [knex](https://www.npmjs.com/package/knex)
+- [celebrate](https://www.npmjs.com/package/celebrate)
+  
+- for tests:
+  [jest](https://www.npmjs.com/package/jest) || [supertest](https://www.npmjs.com/package/supertest)
+
+
+- database:
+  [SQLite3](https://www.sqlite.org/index.html)
+###### Perform the migrations with the knex to generate the database.
 ______________________________________________________________________________________________________________________________
 
 ## How To Use :star:
