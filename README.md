@@ -9,7 +9,7 @@ I currently work with Java and [Spring Framework](https://spring.io/) and I feel
 Thank you very much [Rocketseat](https://github.com/Rocketseat)!
 ______________________________________________________________________________________________________________________________
 
-## Tecnologie :rocket:
+## Tecnologies :rocket:
 - [NodeJs](https://nodejs.org/en/).
 - [express](https://www.npmjs.com/package/express)
 - [cors](https://www.npmjs.com/package/cors)
