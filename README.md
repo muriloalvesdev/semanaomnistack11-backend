@@ -10,7 +10,7 @@ Thank you very much [Rocketseat](https://github.com/Rocketseat)!
 ______________________________________________________________________________________________________________________________
 
 ## Tecnologies :rocket:
-- [NodeJs](https://nodejs.org/en/).
+- [NodeJs](https://nodejs.org/en/)
 - [express](https://www.npmjs.com/package/express)
 - [cors](https://www.npmjs.com/package/cors)
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
