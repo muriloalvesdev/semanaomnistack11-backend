@@ -5,7 +5,7 @@ module.exports = {
 
     async create(request, response) {
         const {id} = request.body;
-        const token = jwt.sign({id: request.body}, id);
+        const token = jwt.sign(id);
          
         const ong = await connection('ongs')
             .where('id', id)
