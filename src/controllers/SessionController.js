@@ -1,11 +1,9 @@
 const connection = require('../database/connection');
-const jwt = require('jsonwebtoken');
 
 module.exports = {
 
     async create(request, response) {
         const {id} = request.body;
-        const token = jwt.sign({id: id}, id);
         
         const ong = await connection('ongs')
             .where('id', id)
@@ -17,6 +15,6 @@ module.exports = {
                 .json({error: 'No ONG found with this ID'});
         }
 
-        return response.json(token);
+        return response.json(id);
     }
 }
