@@ -15,6 +15,6 @@ module.exports = {
                 .json({error: 'No ONG found with this ID'});
         }
 
-        return response.json(id);
+        return response.json(ong);
     }
 }
